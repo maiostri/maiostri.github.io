@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Ricardo Maiostri
 tagline:          'Software Passionate'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Guides, tips and thoughts related to the software development process. Java, Scala, Javascript, functional programming and other stuff.'
 baseurl:          /
 
 author:
