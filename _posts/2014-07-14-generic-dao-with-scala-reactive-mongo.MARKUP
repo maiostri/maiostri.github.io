@@ -4,4 +4,6 @@ title: Generic DAO with Scala, MongoDB and ReactiveMongo
 categories: [Scala, MongoDB]
 ---
 
+This is the first post of a series with the intend to show and discuss the ORM possibilities with Scala and ReactiveMongo.
+
 {% gist maiostri/627491f56998d85a1ed1 %}
