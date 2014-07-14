@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Generic DAO with Scala, MongoDB and ReactiveMongo
+categories: [Scala, MongoDB]
 ---
 
 {% gist maiostri/627491f56998d85a1ed1 %}
