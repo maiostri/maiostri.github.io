@@ -15,4 +15,4 @@ In your Global object, add the followings methods
 The **NoCache** function is reponsible for adding the header in the request, and the **onRouteRequest** is the
 responsible method for intercepting every request routed by Play.
 
-Hope it be could useful for you!
+Hope it could be useful for you!
