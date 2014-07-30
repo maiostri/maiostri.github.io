@@ -1,0 +1,17 @@
+---
+layout: post
+title: Disable browser cache in play framework
+tags: [Play, Scala, HTTP]
+---
+
+Prevent the browser to cache every page could be very useful in dev enviroments. Here is a quick tip on how disable it on Scala with Play! using the
+http header PRAGMA(the Cache-control header could also be used).
+
+In your Global object, add the followings methods
+
+{% gist maiostri/627491f56998d85a1ed1 %}
+
+The NoCache function is reponsible for adding the header, and the onRouteRequest is the
+responsible method for intercepting every request routed by Play.
+
+Hope it could useful for you!
