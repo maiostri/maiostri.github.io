@@ -10,7 +10,7 @@ More details about these HTTP Headers can be found [here](//http://www.w3.org/Pr
 
 In your Global object, add the followings methods
 
-{% gist maiostri/627491f56998d85a1ed1 %}
+{% gist maiostri/90ed595b368a46ce3ff8 %}
 
 The **NoCache** function is reponsible for adding the header in the request, and the **onRouteRequest** is the
 responsible method for intercepting every request routed by Play.
