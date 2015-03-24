@@ -4,7 +4,7 @@ title: Generic DAO with Scala, MongoDB and ReactiveMongo
 tags: [Scala, MongoDB]
 ---
 
-Generic DAO pattern applied to the Scala language and ReactiveMongo framework!
+Generic DAO pattern applied to the Scala language and ReactiveMongo framework! <!--more-->
 
 The collectionName should be defined in the class that will extend the MongoDAO trait(the concrete DAO) and the BSONDocumentReader and BSONDocumentReader traits
 are usually defined in the companion object along with the case class definition.
