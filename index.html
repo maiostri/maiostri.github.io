@@ -14,7 +14,7 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ page.content | postmorefilter: page.url, "continue reading >>" }}    
+    {{ post.content | postmorefilter: post.url, "continue reading >>" }}    
   </div>
   {% endfor %}
 </div>
